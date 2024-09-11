@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+   <html>
+   <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="tables.css">
+        <title>English Premier League Stats</title>
+   </head>
+   <body> 
+        <ul class="navbar">
+            <li><a href="https://www.premierleague.com/"><img src="competition_1.png" alt="epl logo" id="logo-lion"></a></li>
+            <li><a href="/Soccer-open-api/index.html">Home</a></li>
+            <li><a href="/Soccer-open-api/arsenal.html">Arsenal</a></li>
+            <li><a href="/Soccer-open-api/tables.html">Tables</a></li>
+        </ul>
+        <section id="standings">
+            <h1><img src="pl-main-logo.png" alt="EPL logo" width="80px"></h1>
+            <br>
+            <table id="stand">
+                <tr>
+                    <th>Position</th>
+                    <th width=30%;>Club</th>
+                    <th>Played</th>
+                    <th>Won</th>
+                    <th>Drawn</th>
+                    <th>Lost</th>
+                    <th>GF</th>
+                    <th>GA</th>
+                    <th>GD</th>
+                    <th>Points</th>
+                </tr>
+                <tbody id="standTable">
+
+                </tbody>
+            </table>   
+        </section>
+       <script type="module" src="config.js"></script>
+       <script type="module" src="tables.js"></script>
+   </body>
+   </html>

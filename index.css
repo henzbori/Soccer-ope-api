@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.navbar {
+    list-style-type: none;
+    width: 100%;
+    overflow: hidden;
+    background-color: #340040;
+  }
+  
+  .navbar li{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+  }
+  
+  .navbar li:hover {
+    background-color: #07F2F2;
+    color:#340040;
+  }
+
+#logo-lion {
+    width: 300px;
+    padding: 10px;
+    background-color: #07F2F2;
+}
+
+#clubs {
+    margin: 18px;
+    padding-left: 8px;
+    align-content: left;
+    font-size: medium;
+}
+#logo {
+    width: 30px;
+    padding: 8px;
+    align-content: center;
+}
+
+#stand {
+    border-collapse: collapse;
+    width: 20%;
+    text-align: left;
+  }
+  
+  #stand td, #stand th {
+    padding: 5px;
+    align-content: left;
+  }
+  
+  #stand tr:nth-child(even){background-color: #07f2f271;}
+  #stand tr:nth-child(odd){background-color: #dde50977;}
+  
+  #stand tr:hover {background-color: #ddd;}
+  
+  #stand th {
+    padding: 12px;
+    background-color:#340040 ;
+    font-size: larger;
+    color: #07F2F2;
+    min-width: 20px;
+    max-width: 30px;
+  }
+
+  #stand td {
+    color:#340040;
+    font-size: large;
+}
