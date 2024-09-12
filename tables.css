@@ -32,12 +32,22 @@
       padding: 10px;
       background-color: #07F2F2;
   }
-  
+  #lion {
+    padding: 0 30px;
+    padding-top: 30px;
+  }
   #standings {
       margin: 18px;
-      padding-left: 8px;
-      align-content: left;
-      font-size: medium;
+      padding: 8px;
+      align-content: center;
+      font-size: larger;
+  }
+  #standings h1 {
+    margin-left: 10%;
+  }
+  h1 {
+    color: #340040;
+    padding-left: 2rem;
   }
   #logo {
       width: 30px;
@@ -47,7 +57,7 @@
   
   #stand {
       border-collapse: collapse;
-      width: 50%;
+      width: 80%;
       text-align: left;
     }
     
