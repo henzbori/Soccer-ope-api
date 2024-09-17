@@ -33,12 +33,23 @@
     padding: 10px;
     background-color: #07F2F2;
 }
+#lion {
+  padding: 0 30px;
+  padding-top: 30px;
+}
 
 #clubs {
     margin: 18px;
     padding-left: 8px;
-    align-content: left;
-    font-size: medium;
+    align-content: center;
+    font-size: larger;
+}
+#clubs h1 {
+  margin-left: 10%;
+}
+h1 {
+  color: #340040;
+  padding-left: 1rem;
 }
 #logo {
     width: 30px;
@@ -46,9 +57,10 @@
     align-content: center;
 }
 
+
 #stand {
     border-collapse: collapse;
-    width: 20%;
+    width: 50%;
     text-align: left;
   }
   

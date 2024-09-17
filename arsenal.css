@@ -46,7 +46,10 @@
   #statistics h1 {
     margin-left: 10%;
   }
-
+  h1 {
+    color: #340040;
+    padding-left: 1rem;
+  }
   #logo {
       width: 30px;
       padding: 8px;
@@ -55,7 +58,7 @@
   
   #stand {
       border-collapse: collapse;
-      width: 40%;
+      width: 60%;
       text-align: center;
     }
     

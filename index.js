@@ -22,9 +22,9 @@ fetch(apiUrl, {
     return response.json();
 })
 .then(clubData => {
-    const standingsSection = document.getElementById("clubs");
-    let clubs = standingsSection.querySelector("h1");
-    clubs.innerHTML += `Premier League Clubs season ${clubData.parameters.season - 1} - ${clubData.parameters.season}`;
+    const clubSection = document.getElementById("clubs");
+    let club = clubSection.querySelector("h1");
+    club.innerHTML += `Premier League Clubs season ${clubData.parameters.season - 1} - ${clubData.parameters.season}`;
         // DOM Selection to select the element
         console.log(clubData);
         buildClubTable(clubData.response[0].league.standings[0]);
