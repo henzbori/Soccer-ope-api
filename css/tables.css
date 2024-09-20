@@ -6,6 +6,10 @@
     color: rgb(255, 255, 255);
   }
   
+  body {
+    background: linear-gradient(#f2055c6b, #340040a2);
+  }
+
   .navbar {
       list-style-type: none;
       width: 100%;
@@ -35,7 +39,9 @@
   #lion {
     padding: 0 30px;
     padding-top: 30px;
+    margin-left: 20%;
   }
+
   #standings {
       margin: 18px;
       padding: 8px;
@@ -43,23 +49,24 @@
       font-size: larger;
   }
   #standings h1 {
-    margin-left: 10%;
+    margin-left: 5%;
   }
   h1 {
     color: #340040;
-    padding-left: 2rem;
+    padding-left: 1rem;
   }
   #logo {
-      width: 30px;
+      height: 30px;
       padding: 8px;
       align-content: center;
   }
   
   #stand {
-      border-collapse: collapse;
-      width: 80%;
-      text-align: left;
-    }
+    border-collapse: collapse;
+    width: 80%;
+    text-align: left;
+    text-indent: 10%;
+  }
     
     #stand td, #stand th {
       padding: 5px;

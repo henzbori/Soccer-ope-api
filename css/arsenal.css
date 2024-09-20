@@ -6,6 +6,11 @@
     color: rgb(255, 255, 255);
   }
   
+  html {
+    background: linear-gradient(#f2055c6b, #340040a2);
+    height: 100%;
+  }
+
   .navbar {
       list-style-type: none;
       width: 100%;
@@ -36,7 +41,9 @@
   #lion {
     padding: 0 30px;
     padding-top: 30px;
+    margin-left: 20%;
   }
+
   #statistics {
       margin: 18px;
       padding: 8px;
@@ -44,7 +51,7 @@
       font-size: larger;
   }
   #statistics h1 {
-    margin-left: 10%;
+    margin-left: 5%;
   }
   h1 {
     color: #340040;
@@ -57,9 +64,10 @@
   }
   
   #stand {
-      border-collapse: collapse;
-      width: 60%;
-      text-align: center;
+    border-collapse: collapse;
+    width: 80%;
+    text-align: left;
+    text-indent: 10%;
     }
     
     #stand td, #stand th {

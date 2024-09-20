@@ -5,7 +5,9 @@
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
-
+body {
+  background: linear-gradient(#f2055c6b, #340040a2);
+}
 .navbar {
     list-style-type: none;
     width: 100%;
@@ -36,6 +38,7 @@
 #lion {
   padding: 0 30px;
   padding-top: 30px;
+  margin-left: 20%;
 }
 
 #clubs {
@@ -45,14 +48,14 @@
     font-size: larger;
 }
 #clubs h1 {
-  margin-left: 10%;
+  margin-left: 5%;
 }
 h1 {
   color: #340040;
   padding-left: 1rem;
 }
 #logo {
-    width: 30px;
+    height: 30px;
     padding: 8px;
     align-content: center;
 }
@@ -60,8 +63,9 @@ h1 {
 
 #stand {
     border-collapse: collapse;
-    width: 50%;
+    width: 70%;
     text-align: left;
+    text-indent: 10%;
   }
   
   #stand td, #stand th {
