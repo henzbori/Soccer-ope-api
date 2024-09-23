@@ -6,20 +6,28 @@
     color: rgb(255, 255, 255);
   }
   
+  html {
+    background: linear-gradient(#f2055c6b, #340040a2);
+    height: 100%;
+  }
+
+/* navigation bar */
+
   .navbar {
       list-style-type: none;
       width: 100%;
       overflow: hidden;
       background-color: #340040;
-      font-size: larger;
     }
     
     .navbar li{
       display: inline-flex;
       flex-direction: row;
       flex-wrap: wrap;
+      color: rgb(255, 255, 255);
       text-align: center;
       padding: 14px 25px;
+      text-decoration: none;
     }
     
     .navbar li:hover {
@@ -27,6 +35,8 @@
       color:#340040;
     }
   
+    /* logo */
+
   #logo-lion {
       width: 300px;
       padding: 10px;
@@ -35,19 +45,23 @@
   #lion {
     padding: 0 30px;
     padding-top: 30px;
+    margin-left: 20%;
   }
-  #standings {
+  
+/* tables  */
+
+  #statistics {
       margin: 18px;
       padding: 8px;
       align-content: center;
       font-size: larger;
   }
-  #standings h1 {
-    margin-left: 10%;
+  #statistics h1 {
+    margin-left: 5%;
   }
   h1 {
     color: #340040;
-    padding-left: 2rem;
+    padding-left: 1rem;
   }
   #logo {
       width: 30px;
@@ -56,14 +70,15 @@
   }
   
   #stand {
-      border-collapse: collapse;
-      width: 80%;
-      text-align: left;
+    border-collapse: collapse;
+    width: 80%;
+    text-align: left;
+    text-indent: 10%;
     }
     
     #stand td, #stand th {
       padding: 5px;
-      align-content: left;
+      align-content: center;
     }
     
     #stand tr:nth-child(even){background-color: #07f2f271;}
@@ -74,14 +89,13 @@
     #stand th {
       padding-top: 12px;
       padding-bottom: 12px;
-      font-size: larger;
       background-color:#340040 ;
       color: #07F2F2;
       min-width: 20px;
       max-width: 30px;
     }
-  
+    
     #stand td {
-        color:#340040;
-        font-size: large;
-    }
+      color:#340040;
+      font-size: large;
+  }
