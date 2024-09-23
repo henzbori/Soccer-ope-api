@@ -10,6 +10,8 @@
     background: linear-gradient(#f2055c6b, #340040a2);
   }
 
+  /* navigation bar */
+
   .navbar {
       list-style-type: none;
       width: 100%;
@@ -30,7 +32,9 @@
       background-color: #07F2F2;
       color:#340040;
     }
-  
+
+  /* logo */
+
   #logo-lion {
       width: 300px;
       padding: 10px;
@@ -41,6 +45,8 @@
     padding-top: 30px;
     margin-left: 20%;
   }
+
+/* table */
 
   #standings {
       margin: 18px;

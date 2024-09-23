@@ -11,6 +11,8 @@
     height: 100%;
   }
 
+/* navigation bar */
+
   .navbar {
       list-style-type: none;
       width: 100%;
@@ -33,6 +35,8 @@
       color:#340040;
     }
   
+    /* logo */
+
   #logo-lion {
       width: 300px;
       padding: 10px;
@@ -43,6 +47,8 @@
     padding-top: 30px;
     margin-left: 20%;
   }
+  
+/* tables  */
 
   #statistics {
       margin: 18px;
